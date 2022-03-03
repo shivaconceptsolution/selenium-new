@@ -1,0 +1,153 @@
+{
+  "id": "f48b6e8d-4b14-43f4-a68c-2752484bfbdf",
+  "version": "2.0",
+  "name": "EroomRent-Record",
+  "url": "https://eroomrent.in",
+  "tests": [{
+    "id": "28bba64d-9bd5-49be-bd30-f547b3a7a596",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a67cb6f4-4ca5-4c99-9e84-d33801a3de4a",
+    "name": "CheckAllHyperLinkOfFrontPage",
+    "commands": [{
+      "id": "fd95ecd4-b6f3-4e6f-a95f-0a71c6ddf65a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cb0d1b7-b05e-4703-93f1-c35efec8da6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "128af564-3951-4ee1-8ba6-6ce8a2b34450",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5135745b-cd9b-4d67-bc96-4db65472524a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register Here",
+      "targets": [
+        ["linkText=Register Here", "linkText"],
+        ["css=.nav-item:nth-child(3) li:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Register Here')]", "xpath:link"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ownerreg.php')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7445642e-e64e-48aa-add4-baa4eee1106d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'contact.php')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8675aeb-0507-4073-9618-cc0b4f0b3f90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQ",
+      "targets": [
+        ["linkText=FAQ", "linkText"],
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'FAQ')]", "xpath:link"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'faq.php')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FAQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe91e14a-7f3c-4e3d-96fd-42cc2030d995",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.php')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3afaa57f-054d-4d06-85a9-faeb41107186",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3abc044e-0d43-4b11-b4c5-96e82efe78cd",
+    "name": "CheckLoginForm-Owner",
+    "commands": [{
+      "id": "ab9e1ac5-9e5a-4926-a054-490463ca2bfa",
+      "comment": "",
+      "command": "open",
+      "target": "/ownerlogin.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5afa23a5-ba5a-4334-8454-c2181e7c3428",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtEmail",
+      "targets": [],
+      "value": "nitinjatav@gmail.com"
+    }, {
+      "id": "27a66440-be85-493d-ae89-84796dae0b49",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtPassword",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "76498cc1-cde1-4965-9502-d4ef0c84ce0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnsubmit",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d926c538-6f1a-43fe-8b83-b08da91cda17",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28bba64d-9bd5-49be-bd30-f547b3a7a596"]
+  }],
+  "urls": ["https://eroomrent.in/", "https://eroomrent.in/ownerlogin.php"],
+  "plugins": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "c203ca79-8770-4238-b58b-4e523a9d4ef2",
+  "version": "2.0",
+  "name": "Locatorpractice",
+  "url": "https://www.shivaconceptsolution.com",
+  "tests": [{
+    "id": "e0c7a25b-31f0-4bb4-adfd-7d15ae8fc45b",
+    "name": "LocatorPractice",
+    "commands": [{
+      "id": "dde21428-b7d2-4472-8b89-1cf16ccd6070",
+      "comment": "",
+      "command": "open",
+      "target": "/test.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da2b2586-0106-4cb9-bdc6-038877d0ca40",
+      "comment": "",
+      "command": "type",
+      "target": "css=input[value=click]",
+      "targets": [],
+      "value": "Hello World"
+    }, {
+      "id": "d3ad9b46-5855-4983-ad9c-ee3db5e071e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[value=FeMale]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2034d1f6-9155-477c-9b4a-cec087c26425",
+      "comment": "",
+      "command": "select",
+      "target": "id=c",
+      "targets": [],
+      "value": "index=1"
+    }, {
+      "id": "0860b30b-2eb5-421a-bf6b-62371b66eb71",
+      "comment": "",
+      "command": "addSelection",
+      "target": "name=c[]",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "d83528ab-9d5c-432f-a331-fe10c08a5eed",
+      "comment": "",
+      "command": "addSelection",
+      "target": "name=c[]",
+      "targets": [],
+      "value": "index=3"
+    }, {
+      "id": "fb8a7b0c-51d0-4865-9d4f-7a8240331465",
+      "comment": "",
+      "command": "type",
+      "target": "//html/body/input[18]",
+      "targets": [],
+      "value": "test xpath"
+    }]
+  }],
+  "suites": [{
+    "id": "2b6d7346-1538-4732-8a00-635d8c9a14f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e0c7a25b-31f0-4bb4-adfd-7d15ae8fc45b"]
+  }],
+  "urls": ["https://www.shivaconceptsolution.com/"],
+  "plugins": []
+}
